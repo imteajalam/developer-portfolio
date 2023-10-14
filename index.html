@@ -1,13 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Monna portfolio </title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfololiorder</title>
+    <link rel="shortcut icon" href="images/favicon.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="Style/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header design start  -->
+    <header class="header">
+      <button id="topUpButton"><i class='bx bx-up-arrow-alt'></i></button>
+
+      <a href="#" class="logo">Port<span>Folio</span></a>
+      
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#gallary">Gallary</a>
+        <a href="#contact">Contact</a>
+        <div class="toggleSwitch">
+          <i class='bx bxs-sun'></i>
+          <i class='bx bxs-moon'></i>
+        </div>
+        
+      </nav>
+
+    </header>
+
+    <!-- home section design  -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hey! I'm</h3>
+        <h1><span class="bakaFont">Imteaj Alam Monna</span></h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Hi! Thanks for visiting my portfolio. I am a junior web developer. I
+          work with honesty and dedication. Let your website creation journey
+          begin with me. I will try my best to win you over.grow your business with us.
+        </p>
+        <div class="social-media">
+          <a href="https://web.facebook.com/" target="_blank"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCmqM9MJMAybSmfBG-JHvNlg"
+            target="_blank"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/imteaj-alam-monna/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <a target="_blank" href="images/cv.jpg" class="btn">Download Certificate</a>
+      </div>
+      <div class="home-img">
+        <img src="images/banner.JPG" alt=""  class="topup1"/>
+        <img src="images/monna 2.JPG" alt="" class="topup" />
+      </div>
+    </section>
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <video width="400" controls poster="images/peakpx (5).jpg">
+          <source src="images/Quick YouTube Intro_free (1).mp4" type="video/mp4" contenteditable="content"  aria-disabled="true" >
+        </video>
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>junior Developer</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad officia
+          magni totam iusto aliquid obcaecati velit assumenda, dolorem molestias
+          neque dolore nihil eaque qui. Porro nesciunt dolorem sit at eum.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- services section starts  -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            aut tempora cupiditate sit id voluptas! Minus maxime eaque placeat
+            mollitia?
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Profational Graphic Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            aut tempora cupiditate sit id voluptas! Minus maxime eaque placeat
+            mollitia?
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Digital Marketing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            aut tempora cupiditate sit id voluptas! Minus maxime eaque placeat
+            mollitia?
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!---------------------
+       portfolio section start
+      ----------------------  -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Frontend Development</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              dicta?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Backend Development</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              dicta?
+          
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Full Stack Development</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              dicta?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              dicta?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              dicta?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio6.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              dicta?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------
+       gallary section start
+      ----------------------  -->
+    <section class="gallary" id="gallary">
+      <h2 class="heading">My <span>Images😜</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/White-tshirt copy.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              dicta?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/Black&white copy.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              dicta?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/Shirt copy.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              dicta?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------
+       contact section start 
+      -------------------------- -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me! </span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="Email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="Massege"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="
+          Your Messagse"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!-- ---------------------
+        footer section start 
+      ----------------------- -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by <a target="_blank" href="https://web.facebook.com/imteajalammonna"><span>MONNA</span></a> | All Rights Reserved.</p>
+      </div>
+      <!-- <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt fix"></i></a>
+      </div> -->
+    </footer>
+
+    <!-- ------------------------
+        font-awesome-links
+    ----------------------------  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- ------------------------
+        font-awesome-links
+    ----------------------------  -->
+    <script src="Js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </body>
 </html>
